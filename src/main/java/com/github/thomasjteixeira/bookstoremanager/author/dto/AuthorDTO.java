@@ -21,7 +21,7 @@ public class AuthorDTO {
     @Size(max = 255)
     private String name;
 
-    @NotEmpty
+    @NotNull
     @Max(120)
     private int age;
 
